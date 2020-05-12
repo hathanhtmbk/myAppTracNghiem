@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myhome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+    </group>
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/maths"
+                android:icon="@drawable/ic_math"
+                android:title="Toán học" />
+            <item
+                android:id="@+id/physical"
+                android:icon="@drawable/ic_physical"
+                android:title="Vật lý" />
+            <item
+                android:id="@+id/chemistry"
+                android:icon="@drawable/ic_chemistry"
+                android:title="Hóa học" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

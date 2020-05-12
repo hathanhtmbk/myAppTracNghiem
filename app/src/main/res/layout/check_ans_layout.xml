@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:textAlignment="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <GridView
+        android:id="@+id/gvAns"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:numColumns="3"
+        >
+
+    </GridView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="#AF0303"
+            android:layout_weight="1"
+            android:id="@+id/btnhuy"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Hủy" />
+
+        <Button
+
+            android:textColor="#FFFFFF"
+            android:background="#041CAF"
+            android:layout_weight="1"
+            android:id="@+id/btnend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nộp bài" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
